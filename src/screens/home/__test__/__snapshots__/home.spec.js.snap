@@ -1,0 +1,646 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Home> Screen home snapshot 1`] = `
+<View
+  style={
+    Object {
+      "flex": 1,
+    }
+  }
+>
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "backgroundColor": "#fcfdfc",
+        "elevation": 5,
+        "flexDirection": "row",
+        "marginBottom": 20,
+        "paddingBottom": 24,
+        "paddingHorizontal": 16,
+        "paddingTop": 8,
+        "position": "relative",
+        "shadowColor": "#888",
+        "shadowOffset": Object {
+          "height": 2,
+          "width": 0,
+        },
+        "shadowOpacity": 0.5,
+        "shadowRadius": 3,
+        "zIndex": 100,
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "alignItems": "center",
+          "borderColor": "#aaa",
+          "borderRadius": 36,
+          "borderWidth": 1,
+          "flex": 3,
+          "flexDirection": "row",
+        }
+      }
+    >
+      <View
+        style={
+          Object {
+            "marginLeft": 12,
+          }
+        }
+      >
+        <SvgMock
+          height={32}
+          width={32}
+        />
+      </View>
+      <TextInput
+        onChange={[Function]}
+        placeholder="Search this board"
+        placeholderTextColor="#222"
+        style={
+          Object {
+            "fontSize": 18,
+            "paddingLeft": 8,
+            "paddingVertical": 18,
+          }
+        }
+      />
+    </View>
+    <View
+      style={
+        Object {
+          "alignItems": "center",
+          "flex": 1,
+          "paddingHorizontal": 12,
+        }
+      }
+    >
+      <Text
+        style={
+          Object {
+            "fontSize": 18,
+          }
+        }
+      >
+        Tag
+      </Text>
+    </View>
+  </View>
+  <RCTScrollView
+    horizontal={true}
+    style={
+      Object {
+        "zIndex": 0,
+      }
+    }
+  >
+    <View>
+      <View
+        style={
+          Object {
+            "flex": 1,
+          }
+        }
+      >
+        <View
+          style={
+            Object {
+              "alignItems": "flex-start",
+              "flex": 1,
+              "flexDirection": "row",
+              "justifyContent": "flex-start",
+              "padding": 24,
+              "paddingHorizontal": 8,
+            }
+          }
+        >
+          <View
+            testID="boards-container"
+          >
+            <View
+              collapsable={false}
+              forwardedRef={[Function]}
+              handlerTag={15}
+              handlerType="LongPressGestureHandler"
+              onGestureHandlerEvent={[Function]}
+              onGestureHandlerStateChange={[Function]}
+              onLayout={[Function]}
+              style={
+                Object {
+                  "backgroundColor": "#1B5A7C",
+                  "borderRadius": 4,
+                  "marginHorizontal": 8,
+                  "padding": 16,
+                  "paddingHorizontal": 12,
+                  "width": 250,
+                }
+              }
+            >
+              <Text
+                style={
+                  Object {
+                    "color": "white",
+                    "fontSize": 16,
+                    "fontWeight": "bold",
+                    "marginBottom": 16,
+                  }
+                }
+              >
+                Backlog
+              </Text>
+              <View
+                collapsable={false}
+                forwardedRef={[Function]}
+                handlerTag={16}
+                handlerType="LongPressGestureHandler"
+                onGestureHandlerEvent={[Function]}
+                onGestureHandlerStateChange={[Function]}
+                onLayout={[Function]}
+                style={
+                  Object {
+                    "alignItems": "flex-start",
+                    "backgroundColor": "white",
+                    "borderRadius": 4,
+                    "marginBottom": 12,
+                    "padding": 12,
+                    "width": "100%",
+                  }
+                }
+              >
+                <View
+                  style={
+                    Object {
+                      "backgroundColor": "#222",
+                      "borderRadius": 4,
+                      "marginBottom": 16,
+                      "padding": 8,
+                    }
+                  }
+                >
+                  <Text
+                    style={
+                      Object {
+                        "color": "white",
+                        "fontFamily": "Nunito",
+                        "fontSize": 14,
+                        "fontWeight": "bold",
+                      }
+                    }
+                  >
+                    Star Wars
+                  </Text>
+                </View>
+                <View
+                  testID="board-0"
+                >
+                  <Text
+                    style={
+                      Object {
+                        "color": "black",
+                        "fontFamily": "Nunito",
+                        "fontSize": 14,
+                        "fontWeight": "bold",
+                        "lineHeight": 18,
+                        "marginBottom": 12,
+                      }
+                    }
+                  >
+                    Chewbacca
+                  </Text>
+                  <Text
+                    numberOfLines={2}
+                    style={
+                      Object {
+                        "color": "#111",
+                        "fontFamily": "Nunito",
+                        "fontSize": 14,
+                        "lineHeight": 18,
+                        "marginBottom": 12,
+                      }
+                    }
+                  >
+                    This is the first boy, This is the first boy This is the first boy This is the first boy This is the first boy This is the first boy This is the first boy
+                  </Text>
+                  <View
+                    accessible={true}
+                    focusable={true}
+                    onClick={[Function]}
+                    onResponderGrant={[Function]}
+                    onResponderMove={[Function]}
+                    onResponderRelease={[Function]}
+                    onResponderTerminate={[Function]}
+                    onResponderTerminationRequest={[Function]}
+                    onStartShouldSetResponder={[Function]}
+                    testID="card-link"
+                  >
+                    <Text
+                      style={
+                        Object {
+                          "color": "666",
+                          "fontFamily": "Nunito",
+                          "textDecorationLine": "underline",
+                        }
+                      }
+                    >
+                      Document link
+                    </Text>
+                  </View>
+                </View>
+              </View>
+              <View
+                accessible={true}
+                collapsable={false}
+                focusable={true}
+                onClick={[Function]}
+                onResponderGrant={[Function]}
+                onResponderMove={[Function]}
+                onResponderRelease={[Function]}
+                onResponderTerminate={[Function]}
+                onResponderTerminationRequest={[Function]}
+                onStartShouldSetResponder={[Function]}
+                style={
+                  Object {
+                    "opacity": 1,
+                    "paddingVertical": 12,
+                  }
+                }
+              >
+                <Text
+                  style={
+                    Object {
+                      "color": "white",
+                      "width": "100%",
+                    }
+                  }
+                >
+                  + Add Card
+                </Text>
+              </View>
+            </View>
+          </View>
+          <View
+            testID="boards-container"
+          >
+            <View
+              collapsable={false}
+              forwardedRef={[Function]}
+              handlerTag={17}
+              handlerType="LongPressGestureHandler"
+              onGestureHandlerEvent={[Function]}
+              onGestureHandlerStateChange={[Function]}
+              onLayout={[Function]}
+              style={
+                Object {
+                  "backgroundColor": "#106254",
+                  "borderRadius": 4,
+                  "marginHorizontal": 8,
+                  "padding": 16,
+                  "paddingHorizontal": 12,
+                  "width": 250,
+                }
+              }
+            >
+              <Text
+                style={
+                  Object {
+                    "color": "white",
+                    "fontSize": 16,
+                    "fontWeight": "bold",
+                    "marginBottom": 16,
+                  }
+                }
+              >
+                To Do
+              </Text>
+              <View
+                collapsable={false}
+                forwardedRef={[Function]}
+                handlerTag={18}
+                handlerType="LongPressGestureHandler"
+                onGestureHandlerEvent={[Function]}
+                onGestureHandlerStateChange={[Function]}
+                onLayout={[Function]}
+                style={
+                  Object {
+                    "alignItems": "flex-start",
+                    "backgroundColor": "white",
+                    "borderRadius": 4,
+                    "marginBottom": 12,
+                    "padding": 12,
+                    "width": "100%",
+                  }
+                }
+              >
+                <View
+                  style={
+                    Object {
+                      "backgroundColor": "#222",
+                      "borderRadius": 4,
+                      "marginBottom": 16,
+                      "padding": 8,
+                    }
+                  }
+                >
+                  <Text
+                    style={
+                      Object {
+                        "color": "white",
+                        "fontFamily": "Nunito",
+                        "fontSize": 14,
+                        "fontWeight": "bold",
+                      }
+                    }
+                  >
+                    Star Wars
+                  </Text>
+                </View>
+                <View
+                  testID="board-1"
+                >
+                  <Text
+                    style={
+                      Object {
+                        "color": "black",
+                        "fontFamily": "Nunito",
+                        "fontSize": 14,
+                        "fontWeight": "bold",
+                        "lineHeight": 18,
+                        "marginBottom": 12,
+                      }
+                    }
+                  >
+                    Row 5
+                  </Text>
+                  <Text
+                    numberOfLines={2}
+                    style={
+                      Object {
+                        "color": "#111",
+                        "fontFamily": "Nunito",
+                        "fontSize": 14,
+                        "lineHeight": 18,
+                        "marginBottom": 12,
+                      }
+                    }
+                  >
+                    This is the first boy, This is the first boy This is the first boy This is the first boy This is the first boy This is the first boy This is the first boy
+                  </Text>
+                  <View
+                    accessible={true}
+                    focusable={true}
+                    onClick={[Function]}
+                    onResponderGrant={[Function]}
+                    onResponderMove={[Function]}
+                    onResponderRelease={[Function]}
+                    onResponderTerminate={[Function]}
+                    onResponderTerminationRequest={[Function]}
+                    onStartShouldSetResponder={[Function]}
+                    testID="card-link"
+                  >
+                    <Text
+                      style={
+                        Object {
+                          "color": "666",
+                          "fontFamily": "Nunito",
+                          "textDecorationLine": "underline",
+                        }
+                      }
+                    >
+                      Document link
+                    </Text>
+                  </View>
+                </View>
+              </View>
+              <View
+                collapsable={false}
+                forwardedRef={[Function]}
+                handlerTag={19}
+                handlerType="LongPressGestureHandler"
+                onGestureHandlerEvent={[Function]}
+                onGestureHandlerStateChange={[Function]}
+                onLayout={[Function]}
+                style={
+                  Object {
+                    "alignItems": "flex-start",
+                    "backgroundColor": "white",
+                    "borderRadius": 4,
+                    "marginBottom": 12,
+                    "padding": 12,
+                    "width": "100%",
+                  }
+                }
+              >
+                <View
+                  style={
+                    Object {
+                      "backgroundColor": "#222",
+                      "borderRadius": 4,
+                      "marginBottom": 16,
+                      "padding": 8,
+                    }
+                  }
+                >
+                  <Text
+                    style={
+                      Object {
+                        "color": "white",
+                        "fontFamily": "Nunito",
+                        "fontSize": 14,
+                        "fontWeight": "bold",
+                      }
+                    }
+                  >
+                    Marvel
+                  </Text>
+                </View>
+                <View
+                  testID="board-1"
+                >
+                  <Text
+                    style={
+                      Object {
+                        "color": "black",
+                        "fontFamily": "Nunito",
+                        "fontSize": 14,
+                        "fontWeight": "bold",
+                        "lineHeight": 18,
+                        "marginBottom": 12,
+                      }
+                    }
+                  >
+                    Row 6 
+                  </Text>
+                  <Text
+                    numberOfLines={2}
+                    style={
+                      Object {
+                        "color": "#111",
+                        "fontFamily": "Nunito",
+                        "fontSize": 14,
+                        "lineHeight": 18,
+                        "marginBottom": 12,
+                      }
+                    }
+                  >
+                    This is the first boy, This is the first boy This is the first boy This is the first boy This is the first boy This is the first boy This is the first boy
+                  </Text>
+                  <View
+                    accessible={true}
+                    focusable={true}
+                    onClick={[Function]}
+                    onResponderGrant={[Function]}
+                    onResponderMove={[Function]}
+                    onResponderRelease={[Function]}
+                    onResponderTerminate={[Function]}
+                    onResponderTerminationRequest={[Function]}
+                    onStartShouldSetResponder={[Function]}
+                    testID="card-link"
+                  >
+                    <Text
+                      style={
+                        Object {
+                          "color": "666",
+                          "fontFamily": "Nunito",
+                          "textDecorationLine": "underline",
+                        }
+                      }
+                    >
+                      Document link
+                    </Text>
+                  </View>
+                </View>
+              </View>
+            </View>
+          </View>
+          <View
+            testID="boards-container"
+          >
+            <View
+              collapsable={false}
+              forwardedRef={[Function]}
+              handlerTag={20}
+              handlerType="LongPressGestureHandler"
+              onGestureHandlerEvent={[Function]}
+              onGestureHandlerStateChange={[Function]}
+              onLayout={[Function]}
+              style={
+                Object {
+                  "backgroundColor": "#71441B",
+                  "borderRadius": 4,
+                  "marginHorizontal": 8,
+                  "padding": 16,
+                  "paddingHorizontal": 12,
+                  "width": 250,
+                }
+              }
+            >
+              <Text
+                style={
+                  Object {
+                    "color": "white",
+                    "fontSize": 16,
+                    "fontWeight": "bold",
+                    "marginBottom": 16,
+                  }
+                }
+              >
+                In Development
+              </Text>
+              <View
+                style={
+                  Object {
+                    "backgroundColor": "white",
+                    "borderRadius": 4,
+                    "padding": 16,
+                  }
+                }
+              >
+                <Text
+                  style={
+                    Object {
+                      "color": "#71441B",
+                      "fontSize": 18,
+                    }
+                  }
+                >
+                  Drag and drop here
+                </Text>
+              </View>
+            </View>
+          </View>
+          <View
+            testID="boards-container"
+          >
+            <View
+              collapsable={false}
+              forwardedRef={[Function]}
+              handlerTag={21}
+              handlerType="LongPressGestureHandler"
+              onGestureHandlerEvent={[Function]}
+              onGestureHandlerStateChange={[Function]}
+              onLayout={[Function]}
+              style={
+                Object {
+                  "backgroundColor": "#54127D",
+                  "borderRadius": 4,
+                  "marginHorizontal": 8,
+                  "padding": 16,
+                  "paddingHorizontal": 12,
+                  "width": 250,
+                }
+              }
+            >
+              <Text
+                style={
+                  Object {
+                    "color": "white",
+                    "fontSize": 16,
+                    "fontWeight": "bold",
+                    "marginBottom": 16,
+                  }
+                }
+              >
+                Completed
+              </Text>
+              <View
+                style={
+                  Object {
+                    "backgroundColor": "white",
+                    "borderRadius": 4,
+                    "padding": 16,
+                  }
+                }
+              >
+                <Text
+                  style={
+                    Object {
+                      "color": "#54127D",
+                      "fontSize": 18,
+                    }
+                  }
+                >
+                  Drag and drop here
+                </Text>
+              </View>
+            </View>
+          </View>
+        </View>
+        <View
+          pointerEvents="none"
+          style={
+            Object {
+              "bottom": 0,
+              "left": 0,
+              "position": "absolute",
+              "right": 0,
+              "top": 0,
+            }
+          }
+        />
+      </View>
+    </View>
+  </RCTScrollView>
+</View>
+`;

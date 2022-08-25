@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    "allowSyntheticDefaultImports": true,
+    "allowJs": true,
+    "jsx": "react-native",
+    "lib": ["dom", "esnext"],
+    "moduleResolution": "node",
+    "noEmit": true,
+    "skipLibCheck": true,
+    "resolveJsonModule": true,
+    "baseUrl": "./src",
+    "strict": true,
+    "typeRoots": ["./types", "node_modules/@types"],
+    "paths": {
+      "@app/*": ["./*"]
+    }
+  },
+  "exclude": ["src/__mocks__"]
+}
